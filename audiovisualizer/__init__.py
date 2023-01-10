@@ -153,7 +153,7 @@ def main():
     parser.add_argument("-ns", "--nosync", help="do not sync graph with audio", action="store_true")
 
     args = parser.parse_args()
-    run(args.filename, args.type, args.fps, args.width, args.height, args.print_char, args.debug, not args.nosync)
+    run(args.filename, args.type, args.fps, args.width, args.height, args.char, args.debug, not args.nosync)
 
 
 if __name__ == "__main__":
