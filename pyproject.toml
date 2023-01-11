@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "audiovisualizer"
-version = "1.0.1"
+version = "1.0.2"
 description = "Visaualize audio stream in terminal"
 readme = "README.md"
 requires-python = ">=3.7"
